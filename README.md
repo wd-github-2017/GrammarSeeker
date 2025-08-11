@@ -88,14 +88,6 @@ tokenizer = AutoTokenizer.from_pretrained("WangDong2017/GrammarSeeker-SFT-Qwen2.
 - **Format**: prompt1, prompt2, answer (T/F)
 - **Test Results**: Successfully validated with 97.97% F1 score
 
-## 🔬 Technical Details
-
-- **Model Size**: ~15GB (complete fine-tuned model)
-- **Performance**: 10 annotations per second on RTX 4090
-- **Input Format**: Structured prompts following Qwen chat template
-- **Output Format**: Binary classification (T/F)
-- **Deployment Status**: ✅ Successfully deployed to Hugging Face
-
 ## 🚀 Deployment & Integration
 
 ### Hugging Face Integration
@@ -103,16 +95,6 @@ tokenizer = AutoTokenizer.from_pretrained("WangDong2017/GrammarSeeker-SFT-Qwen2.
 - **Model Hub**: [WangDong2017/GrammarSeeker-SFT-Qwen2.5-7B](https://huggingface.co/WangDong2017/GrammarSeeker-SFT-Qwen2.5-7B)
 - **Direct Loading**: Available for immediate use
 - **API Access**: Can be deployed through HF Inference API
-
-### Local Development
-
-```bash
-# Clone the repository
-git clone https://huggingface.co/WangDong2017/GrammarSeeker-SFT-Qwen2.5-7B
-
-# Test the model
-python test_hf_model.py
-```
 
 ## 📝 Citation
 
