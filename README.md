@@ -107,14 +107,6 @@ tokenizer = AutoTokenizer.from_pretrained("WangDong2017/GrammarSeeker-SFT-Qwen2.
 }
 ```
 
-## 🔗 Quick Links
-
-- **📁 Source Code**: [GitHub Repository](https://github.com/wd-github-2017/GrammarSeeker)
-- **Model Hub**: [WangDong2017/GrammarSeeker-SFT-Qwen2.5-7B](https://huggingface.co/WangDong2017/GrammarSeeker-SFT-Qwen2.5-7B)
-- **Test Script**: `test_hf_model.py`
-- **Performance**: 97.97% F1 score on test dataset
-- **Model Type**: Complete fine-tuned model (no adapter needed)
-
 ---
 
 **Note**: This model has been successfully tested and deployed. For production use, please ensure proper testing and validation in your specific use case. 
