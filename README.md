@@ -25,6 +25,7 @@ The fine-tuned model is now available for direct use without any additional step
   - **Negative Accuracy**: 0.9960 (99.60%)
   - **Test Samples**: 1000
   - **Test Date**: 2025-08-11
+  - **Tested Performance**: 16 annotations/s (Test completed in ~1 minute on RTX 4090)
 
 ## 🎯 Use Case
 
