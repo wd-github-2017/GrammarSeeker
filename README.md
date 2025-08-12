@@ -100,12 +100,14 @@ tokenizer = AutoTokenizer.from_pretrained("WangDong2017/GrammarSeeker-SFT-Qwen2.
 ## 📝 Citation
 
 ```bibtex
-@misc{GrammarSeeker-SFT-Qwen2.5-7B,
-  title={GrammarSeeker-SFT-Qwen2.5-7B},
-  author={Wang Dong},
-  year={2025},
-  url={https://huggingface.co/WangDong2017/GrammarSeeker-SFT-Qwen2.5-7B}
+@misc{wang2025CPGEVALMultitieredBenchmark,
+  title = {{{CPG-EVAL}}: A Multi-Tiered Benchmark for Evaluating the Chinese Pedagogical Grammar Competence of Large Language Models},
+  author = {Wang, Dong},
+  year = {2025},
+  publisher = {arXiv},
+  doi = {10.48550/ARXIV.2504.13261}
 }
+
 ```
 
 ---
